@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48E34B0B1BAF644D0031AAD4"
+               BlueprintIdentifier = "4862841B1BAFB2BE004B5551"
                BuildableName = "MockInsta.app"
                BlueprintName = "MockInsta"
                ReferencedContainer = "container:MockInsta.xcodeproj">
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48E34B1F1BAF644D0031AAD4"
+               BlueprintIdentifier = "4862842F1BAFB2BF004B5551"
                BuildableName = "MockInstaTests.xctest"
                BlueprintName = "MockInstaTests"
-               ReferencedContainer = "container:MockInsta.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48E34B2A1BAF644D0031AAD4"
-               BuildableName = "MockInstaUITests.xctest"
-               BlueprintName = "MockInstaUITests"
                ReferencedContainer = "container:MockInsta.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48E34B0B1BAF644D0031AAD4"
+            BlueprintIdentifier = "4862841B1BAFB2BE004B5551"
             BuildableName = "MockInsta.app"
             BlueprintName = "MockInsta"
             ReferencedContainer = "container:MockInsta.xcodeproj">
@@ -75,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48E34B0B1BAF644D0031AAD4"
+            BlueprintIdentifier = "4862841B1BAFB2BE004B5551"
             BuildableName = "MockInsta.app"
             BlueprintName = "MockInsta"
             ReferencedContainer = "container:MockInsta.xcodeproj">
@@ -94,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "48E34B0B1BAF644D0031AAD4"
+            BlueprintIdentifier = "4862841B1BAFB2BE004B5551"
             BuildableName = "MockInsta.app"
             BlueprintName = "MockInsta"
             ReferencedContainer = "container:MockInsta.xcodeproj">
