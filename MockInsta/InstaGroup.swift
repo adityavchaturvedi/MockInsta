@@ -20,3 +20,5 @@ public class InstaGroup {
         let location: String
     }
 
+let URL =  https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673 
+
