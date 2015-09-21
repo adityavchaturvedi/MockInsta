@@ -14,6 +14,7 @@
 		486284271BAFB2BF004B5551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486284261BAFB2BF004B5551 /* Assets.xcassets */; };
 		4862842A1BAFB2BF004B5551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486284281BAFB2BF004B5551 /* LaunchScreen.storyboard */; };
 		486284351BAFB2BF004B5551 /* MockInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486284341BAFB2BF004B5551 /* MockInstaTests.swift */; };
+		486284411BAFDD52004B5551 /* InstaGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486284401BAFDD52004B5551 /* InstaGroup.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		486284341BAFB2BF004B5551 /* MockInstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockInstaTests.swift; sourceTree = "<group>"; };
 		486284361BAFB2BF004B5551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4862843F1BAFB66E004B5551 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		486284401BAFDD52004B5551 /* InstaGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaGroup.swift; sourceTree = "<group>"; };
 		6C00CDCDE1504144A74750E8 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BACB6ED2368849AD231D621 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9817081E57E5D7318AD6C296 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				4862841F1BAFB2BF004B5551 /* AppDelegate.swift */,
+				486284401BAFDD52004B5551 /* InstaGroup.swift */,
 				486284211BAFB2BF004B5551 /* ViewController.swift */,
 				486284231BAFB2BF004B5551 /* Main.storyboard */,
 				486284261BAFB2BF004B5551 /* Assets.xcassets */,
@@ -275,6 +278,7 @@
 			files = (
 				486284221BAFB2BF004B5551 /* ViewController.swift in Sources */,
 				486284201BAFB2BF004B5551 /* AppDelegate.swift in Sources */,
+				486284411BAFDD52004B5551 /* InstaGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
