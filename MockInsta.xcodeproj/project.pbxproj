@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E34B101BAF644D0031AAD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E34B0F1BAF644D0031AAD4 /* AppDelegate.swift */; };
+		48E34B121BAF644D0031AAD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E34B111BAF644D0031AAD4 /* ViewController.swift */; };
+		48E34B151BAF644D0031AAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E34B131BAF644D0031AAD4 /* Main.storyboard */; };
+		48E34B171BAF644D0031AAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E34B161BAF644D0031AAD4 /* Assets.xcassets */; };
+		48E34B1A1BAF644D0031AAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E34B181BAF644D0031AAD4 /* LaunchScreen.storyboard */; };
+		48E34B251BAF644D0031AAD4 /* MockInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E34B241BAF644D0031AAD4 /* MockInstaTests.swift */; };
+		48E34B301BAF644D0031AAD4 /* MockInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E34B2F1BAF644D0031AAD4 /* MockInstaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48E34B211BAF644D0031AAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E34B041BAF644D0031AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E34B0B1BAF644D0031AAD4;
+			remoteInfo = MockInsta;
+		};
+		48E34B2C1BAF644D0031AAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48E34B041BAF644D0031AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48E34B0B1BAF644D0031AAD4;
+			remoteInfo = MockInsta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48E34B0C1BAF644D0031AAD4 /* MockInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E34B0F1BAF644D0031AAD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48E34B111BAF644D0031AAD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48E34B141BAF644D0031AAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48E34B161BAF644D0031AAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E34B191BAF644D0031AAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E34B1B1BAF644D0031AAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E34B201BAF644D0031AAD4 /* MockInstaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockInstaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E34B241BAF644D0031AAD4 /* MockInstaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockInstaTests.swift; sourceTree = "<group>"; };
+		48E34B261BAF644D0031AAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E34B2B1BAF644D0031AAD4 /* MockInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E34B2F1BAF644D0031AAD4 /* MockInstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockInstaUITests.swift; sourceTree = "<group>"; };
+		48E34B311BAF644D0031AAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E34B091BAF644D0031AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B1D1BAF644D0031AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B281BAF644D0031AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48E34B031BAF644D0031AAD4 = {
+			isa = PBXGroup;
+			children = (
+				48E34B0E1BAF644D0031AAD4 /* MockInsta */,
+				48E34B231BAF644D0031AAD4 /* MockInstaTests */,
+				48E34B2E1BAF644D0031AAD4 /* MockInstaUITests */,
+				48E34B0D1BAF644D0031AAD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E34B0D1BAF644D0031AAD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E34B0C1BAF644D0031AAD4 /* MockInsta.app */,
+				48E34B201BAF644D0031AAD4 /* MockInstaTests.xctest */,
+				48E34B2B1BAF644D0031AAD4 /* MockInstaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E34B0E1BAF644D0031AAD4 /* MockInsta */ = {
+			isa = PBXGroup;
+			children = (
+				48E34B0F1BAF644D0031AAD4 /* AppDelegate.swift */,
+				48E34B111BAF644D0031AAD4 /* ViewController.swift */,
+				48E34B131BAF644D0031AAD4 /* Main.storyboard */,
+				48E34B161BAF644D0031AAD4 /* Assets.xcassets */,
+				48E34B181BAF644D0031AAD4 /* LaunchScreen.storyboard */,
+				48E34B1B1BAF644D0031AAD4 /* Info.plist */,
+			);
+			path = MockInsta;
+			sourceTree = "<group>";
+		};
+		48E34B231BAF644D0031AAD4 /* MockInstaTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E34B241BAF644D0031AAD4 /* MockInstaTests.swift */,
+				48E34B261BAF644D0031AAD4 /* Info.plist */,
+			);
+			path = MockInstaTests;
+			sourceTree = "<group>";
+		};
+		48E34B2E1BAF644D0031AAD4 /* MockInstaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48E34B2F1BAF644D0031AAD4 /* MockInstaUITests.swift */,
+				48E34B311BAF644D0031AAD4 /* Info.plist */,
+			);
+			path = MockInstaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E34B0B1BAF644D0031AAD4 /* MockInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E34B341BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInsta" */;
+			buildPhases = (
+				48E34B081BAF644D0031AAD4 /* Sources */,
+				48E34B091BAF644D0031AAD4 /* Frameworks */,
+				48E34B0A1BAF644D0031AAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockInsta;
+			productName = MockInsta;
+			productReference = 48E34B0C1BAF644D0031AAD4 /* MockInsta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48E34B1F1BAF644D0031AAD4 /* MockInstaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E34B371BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInstaTests" */;
+			buildPhases = (
+				48E34B1C1BAF644D0031AAD4 /* Sources */,
+				48E34B1D1BAF644D0031AAD4 /* Frameworks */,
+				48E34B1E1BAF644D0031AAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E34B221BAF644D0031AAD4 /* PBXTargetDependency */,
+			);
+			name = MockInstaTests;
+			productName = MockInstaTests;
+			productReference = 48E34B201BAF644D0031AAD4 /* MockInstaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48E34B2A1BAF644D0031AAD4 /* MockInstaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E34B3A1BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInstaUITests" */;
+			buildPhases = (
+				48E34B271BAF644D0031AAD4 /* Sources */,
+				48E34B281BAF644D0031AAD4 /* Frameworks */,
+				48E34B291BAF644D0031AAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E34B2D1BAF644D0031AAD4 /* PBXTargetDependency */,
+			);
+			name = MockInstaUITests;
+			productName = MockInstaUITests;
+			productReference = 48E34B2B1BAF644D0031AAD4 /* MockInstaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E34B041BAF644D0031AAD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aditya V Chaturvedi";
+				TargetAttributes = {
+					48E34B0B1BAF644D0031AAD4 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					48E34B1F1BAF644D0031AAD4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 48E34B0B1BAF644D0031AAD4;
+					};
+					48E34B2A1BAF644D0031AAD4 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 48E34B0B1BAF644D0031AAD4;
+					};
+				};
+			};
+			buildConfigurationList = 48E34B071BAF644D0031AAD4 /* Build configuration list for PBXProject "MockInsta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E34B031BAF644D0031AAD4;
+			productRefGroup = 48E34B0D1BAF644D0031AAD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E34B0B1BAF644D0031AAD4 /* MockInsta */,
+				48E34B1F1BAF644D0031AAD4 /* MockInstaTests */,
+				48E34B2A1BAF644D0031AAD4 /* MockInstaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E34B0A1BAF644D0031AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E34B1A1BAF644D0031AAD4 /* LaunchScreen.storyboard in Resources */,
+				48E34B171BAF644D0031AAD4 /* Assets.xcassets in Resources */,
+				48E34B151BAF644D0031AAD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B1E1BAF644D0031AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B291BAF644D0031AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E34B081BAF644D0031AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E34B121BAF644D0031AAD4 /* ViewController.swift in Sources */,
+				48E34B101BAF644D0031AAD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B1C1BAF644D0031AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E34B251BAF644D0031AAD4 /* MockInstaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48E34B271BAF644D0031AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E34B301BAF644D0031AAD4 /* MockInstaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E34B221BAF644D0031AAD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E34B0B1BAF644D0031AAD4 /* MockInsta */;
+			targetProxy = 48E34B211BAF644D0031AAD4 /* PBXContainerItemProxy */;
+		};
+		48E34B2D1BAF644D0031AAD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48E34B0B1BAF644D0031AAD4 /* MockInsta */;
+			targetProxy = 48E34B2C1BAF644D0031AAD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48E34B131BAF644D0031AAD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E34B141BAF644D0031AAD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48E34B181BAF644D0031AAD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E34B191BAF644D0031AAD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E34B321BAF644D0031AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48E34B331BAF644D0031AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E34B351BAF644D0031AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MockInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E34B361BAF644D0031AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MockInsta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInsta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48E34B381BAF644D0031AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MockInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockInsta.app/MockInsta";
+			};
+			name = Debug;
+		};
+		48E34B391BAF644D0031AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MockInstaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInstaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockInsta.app/MockInsta";
+			};
+			name = Release;
+		};
+		48E34B3B1BAF644D0031AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MockInstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MockInsta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48E34B3C1BAF644D0031AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MockInstaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TalentSpark.MockInstaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MockInsta;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E34B071BAF644D0031AAD4 /* Build configuration list for PBXProject "MockInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E34B321BAF644D0031AAD4 /* Debug */,
+				48E34B331BAF644D0031AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E34B341BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E34B351BAF644D0031AAD4 /* Debug */,
+				48E34B361BAF644D0031AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48E34B371BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInstaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E34B381BAF644D0031AAD4 /* Debug */,
+				48E34B391BAF644D0031AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48E34B3A1BAF644D0031AAD4 /* Build configuration list for PBXNativeTarget "MockInstaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E34B3B1BAF644D0031AAD4 /* Debug */,
+				48E34B3C1BAF644D0031AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E34B041BAF644D0031AAD4 /* Project object */;
+}
