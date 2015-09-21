@@ -6,7 +6,9 @@ import XCPlayground
 
 XCPExecutionShouldContinueIndefinitely(true)
 
-Alamofire.request(.GET, "https://httpbin.org/get").responseJSON {_,_,result in print(result)
+Alamofire.request(.GET, "https://httpbin.org/get")
+    .responseJSON {_,_,result in
+    print(result)
     debugPrint(result)
 }
 
