@@ -6,9 +6,7 @@ import XCPlayground
 
 XCPExecutionShouldContinueIndefinitely(true)
 
-Alamofire.request(.GET, "https://httpbin.org/get")
-    .responseJSON {_,_,result in
-    print(result)
-    debugPrint(result)
-}
+let url = NSURL(string: "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")!
+
+
 
