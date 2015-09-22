@@ -9,10 +9,8 @@
 import UIKit
 import UIKit
 import Alamofire
-import XCPlayground
 
 class ViewController: UIViewController {
-    XCPExecutionShouldContinueIndefinitely(true)
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -25,7 +25,7 @@ public class MockInsta {
         let fullName: String
     }
     
-    func fetchFeed(callback: (MockInsta) -> Void) {
+    func fetchFeed(callback: (Feed) -> Void) {
         // Fetch feed details
         Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673 ")
             .responseJSON { _, _, jsonObj in
@@ -33,8 +33,9 @@ public class MockInsta {
         }
     }
     
-    func storeDataForFeed(data: AnyObject?, callback: (MockInsta) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: (Feed) -> Void) {
         let json = JSON(data!)
+        print(json["data"].stringValue)
         callback(Feed(data: json["data"].stringValue))
     }
 }
