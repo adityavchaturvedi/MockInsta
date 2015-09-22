@@ -5,30 +5,36 @@
 //  Created by Aditya Chaturvedi on 9/20/15.
 //  Copyright © 2015 Aditya V Chaturvedi. All rights reserved.
 //
+// Inspired and adapted from Nick Chen's Github Demo Code at https://github.com/talentsparkio/GitHubDemo
+
 
 import Foundation
 import Alamofire
 import SwiftyJSON
 
-public class InstaGroup {
-
-    struct orgDetails {
-        let retCode: Int8 // If 200 continue else do not continue
+public class MockInsta {
+    
+    struct Feed {
         let data: String
     }
     
-    func fetchInstaDetails(callback: (orgDetails) -> Void) {
-        // Fetch organization details
-        Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")
+    struct User {
+        let name: String
+        let profilePicURL: String
+        let id: String
+        let fullName: String
+    }
+    
+    func fetchFeed(callback: (MockInsta) -> Void) {
+        // Fetch feed details
+        Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673 ")
             .responseJSON { _, _, jsonObj in
-                self.populateInstaInfoWith(jsonObj.value!, callback: callback)
+                self.storeDataForFeed(jsonObj.value!, callback: callback)
         }
     }
     
-    func populateInstaInfoWith(data: AnyObject?, callback: (orgDetails) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: (MockInsta) -> Void) {
         let json = JSON(data!)
-        callback(orgDetails(retCode: json["Meta/code"].stringValue, data: json["data"].stringValue))
+        callback(Feed(data: json["data"].stringValue))
     }
-
-
 }
