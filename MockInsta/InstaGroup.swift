@@ -14,10 +14,6 @@ import SwiftyJSON
 
 public class MockInsta {
     
-    struct Feed {
-        let data: String
-    }
-    
     struct User {
         let name: String
         let profilePicURL: String
@@ -25,17 +21,21 @@ public class MockInsta {
         let fullName: String
     }
     
-    func fetchFeed(callback: (Feed) -> Void) {
+    func fetchFeed(callback: ([User]) -> Void) {
         // Fetch feed details
-        Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673 ")
+        Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")
             .responseJSON { _, _, jsonObj in
-                self.storeDataForFeed(jsonObj.value!, callback: callback)
+                self.storeDataForFeed(jsonObj.Value!, callback: callback)
         }
     }
     
-    func storeDataForFeed(data: AnyObject?, callback: (Feed) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: ([User]) -> Void) {
         let json = JSON(data!)
-        print(json["data"].stringValue)
-        callback(Feed(data: json["data"].stringValue))
+        var users = [User]()
+        
+        for member in json.arrayValue {
+            users.append(User(name: member["from"]["username"].stringValue, profilePicURL: member["from"]["profile_picture"].stringValue, id: member["from"]["id"].stringValue, fullName: member["from"]["full_name"].stringValue))
+        }
+        callback(users)
     }
 }
