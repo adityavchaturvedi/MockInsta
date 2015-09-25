@@ -38,11 +38,11 @@ public class MockInsta {
         var users = [Media]()
         
         for user in json.arrayValue {
-            let json2 = JSON(user["comments"])
-            for user3 in json2.arrayValue {
+            //let json2 = JSON(user["comments"])
+            //for user3 in json2.arrayValue {
                 
-            }
-            users.append(Media(tags: user["tags"].stringValue , commentCount: user["comments"]["count"], commentText: user["comments"]["data"].int, likesNum: user["likes"]["count"], picLow: user["images"]["low_resolution"]["url"], picThum: user["images"]["thumbnail"]["url"], picSd: user["images"]["standard_resolution"]["url"], username: user["user"]["username"], profilePic: user["user"]["profile_picture"], id: user["user"]["id"]))
+            //}
+          /*  users.append(Media(tags: user["tags"].stringValue , commentCount: user["comments"]["count"], commentText: user["comments"]["data"].int, likesNum: user["likes"]["count"], picLow: user["images"]["low_resolution"]["url"], picThum: user["images"]["thumbnail"]["url"], picSd: user["images"]["standard_resolution"]["url"], username: user["user"]["username"], profilePic: user["user"]["profile_picture"], id: user["user"]["id"])) */
         }
     }
 }
