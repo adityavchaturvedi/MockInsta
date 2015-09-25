@@ -25,7 +25,12 @@ public class MockInsta {
         let id: String
     }
     
-    func fetchFeed(callback: ([Media]) -> Void) {
+    struct tempChecker {
+        let picThum: String //Profile Pic URL
+        let username: String //User's name to be displayed
+    }
+    
+    func fetchFeed(callback: ([tempChecker]) -> Void) {
         // Fetch Media details
         Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")
             .responseJSON { _, _, jsonObj in
@@ -33,11 +38,12 @@ public class MockInsta {
         }
     }
     
-    func storeDataForFeed(data: AnyObject?, callback: ([Media]) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: ([tempChecker]) -> Void) {
         let json = JSON(data!)
-        var users = [Media]()
+        var users = [tempChecker]()
         
         for user in json.arrayValue {
+            //users.append(tempChecker(picThum: , username: ))
             //let json2 = JSON(user["comments"])
             //for user3 in json2.arrayValue {
                 
