@@ -4,8 +4,6 @@
 //
 //  Created by Aditya Chaturvedi on 9/20/15.
 //  Copyright © 2015 Aditya V Chaturvedi. All rights reserved.
-//
-// Inspired and adapted from Nick Chen's Github Demo Code at https://github.com/talentsparkio/GitHubDemo
 
 
 import Foundation
@@ -14,28 +12,33 @@ import SwiftyJSON
 
 public class MockInsta {
     
-    struct User {
-        let name: String
-        let profilePicURL: String
+    struct Media {
+        let tags: [String]
+        let commentCount: Int
+        let commentText: [String]
+        let likesNum: Int
+        let picLow: String //pic URL
+        let picThum: String //pic URL
+        let picSd: String //pic URL
+        let username: String //Username
+        let profilePic: String //pic url
         let id: String
-        let fullName: String
     }
     
-    func fetchFeed(callback: ([User]) -> Void) {
-        // Fetch feed details
+    func fetchFeed(callback: (Media) -> Void) {
+        // Fetch Media details
         Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")
             .responseJSON { _, _, jsonObj in
-                self.storeDataForFeed(jsonObj.Value!, callback: callback)
+                self.storeDataForFeed(jsonObj.value!, callback: callback)
         }
     }
     
-    func storeDataForFeed(data: AnyObject?, callback: ([User]) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: (Media) -> Void) {
         let json = JSON(data!)
-        var users = [User]()
+        var _ = [Media]()
         
-        for member in json.arrayValue {
-            users.append(User(name: member["from"]["username"].stringValue, profilePicURL: member["from"]["profile_picture"].stringValue, id: member["from"]["id"].stringValue, fullName: member["from"]["full_name"].stringValue))
+        for _ in json.arrayValue {
+            print("hello")
         }
-        callback(users)
     }
 }
