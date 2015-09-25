@@ -25,7 +25,7 @@ public class MockInsta {
         let id: String
     }
     
-    func fetchFeed(callback: (Media) -> Void) {
+    func fetchFeed(callback: ([Media]) -> Void) {
         // Fetch Media details
         Alamofire.request(.GET, "https://api.instagram.com/v1/media/popular?client_id=c953ffadb974463f9f6813fc4fc91673")
             .responseJSON { _, _, jsonObj in
@@ -33,12 +33,16 @@ public class MockInsta {
         }
     }
     
-    func storeDataForFeed(data: AnyObject?, callback: (Media) -> Void) {
+    func storeDataForFeed(data: AnyObject?, callback: ([Media]) -> Void) {
         let json = JSON(data!)
-        var _ = [Media]()
+        var users = [Media]()
         
-        for _ in json.arrayValue {
-            print("hello")
+        for user in json.arrayValue {
+            let json2 = JSON(user["comments"])
+            for user3 in json2.arrayValue {
+                
+            }
+            users.append(Media(tags: user["tags"].stringValue , commentCount: user["comments"]["count"], commentText: user["comments"]["data"].int, likesNum: user["likes"]["count"], picLow: user["images"]["low_resolution"]["url"], picThum: user["images"]["thumbnail"]["url"], picSd: user["images"]["standard_resolution"]["url"], username: user["user"]["username"], profilePic: user["user"]["profile_picture"], id: user["user"]["id"]))
         }
     }
 }
